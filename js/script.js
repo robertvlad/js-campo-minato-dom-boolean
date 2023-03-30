@@ -53,12 +53,14 @@ function createBox (num, dif, cont) {
    
         single_box.addEventListener('click', function() {
    
-            if (this.classList.contains('red')) {
-                this.classList.remove('red')
-            }
-            else {
-                this.classList.add('red')
-            }
+            // if (this.classList.contains('red')) {
+            //     this.classList.remove('red')
+            // }
+            // else {
+            //     this.classList.add('red')
+            // }
+
+            this.classList.toggle('red')
         })
     }
 }
